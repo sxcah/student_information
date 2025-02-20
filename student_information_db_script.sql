@@ -487,7 +487,7 @@ CREATE TABLE `students` (
   `address` varchar(25) NOT NULL,
   `contact_num` int(15) NOT NULL,
   `course` varchar(25) NOT NULL,
-  `created_at` DATETIME DEFAULT (CURRENT_TIMESTAMP())
+  `created_at` datetime DEFAULT (CURRENT_TIMESTAMP())
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
