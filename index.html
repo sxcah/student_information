@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <p class="form-title">
+            Registration
+        </p>
+        <form action="db_conn.php" method="post" id="registrationContainer" onsubmit="return validateForm()">
+            <div class="input-group">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" placeholder="First Name" class="text-field">
+            </div>
+            <div class="input-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" placeholder="Last Name" class="text-field">
+            </div>
+            <div class="input-group">
+                <label for="address">Last Name</label>
+                <input type="text" name="address" placeholder="Address" class="text-field">
+            </div>
+            <div class="input-group">
+                <label for="contact_num">Contact Number</label>
+                <input type="number" name="contact_num" placeholder="Contact Number" class="text-field">
+            </div>
+            <div class="input-group">
+                <label for="course">Course</label>
+                <input type="text" name="course" placeholder="Course" class="text-field">
+            </div>
+            <input type="submit" class="btn" name="registrationBtn" value="Register">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
